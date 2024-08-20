@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .row
+        {
+            display: flex;
+            background-color: aqua;
+            flex-wrap: wrap;
+            margin-top: 5px;
+            justify-content: center;   
+        }
+        .row1
+        {
+            display: flex;
+            background-color: aqua;
+            flex-wrap: wrap;
+            margin-top: 5px;
+            justify-items: stretch;   
+        }
+        .col
+        {
+            background-color: blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col">div 1</div>
+        <div class="col">div 2</div>
+        <div class="col">div 3</div>
+    </div>
+    <div class="row1">
+        <div class="col">div 1</div>
+        <div class="col">div 2</div>
+        <div class="col">div 3</div>
+    </div>
+</body>
+</html>
